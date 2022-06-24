@@ -83,8 +83,6 @@ console.log(multiplesOfFive())
 
       contQuadrado.push(quadrado * quadrado)
       
-      console.log(quadrado)
-      
    }
 
    return contQuadrado
@@ -173,7 +171,7 @@ function squareNumbersBackwards(){
 
    let contQuadradoTras = []
 
-   for(let quadradoTras = 10; quadradoTras > 1; quadradoTras--){
+   for(let quadradoTras = 10; quadradoTras >= 1; quadradoTras--){
 
       contQuadradoTras.push(quadradoTras * quadradoTras)
       
